@@ -376,9 +376,19 @@ a:hover{
 }
 /* end pokemon progress */
 /* pokemon badge */
+.pokemon-types{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pokemon-types .title{
+  font-weight: 600;
+  margin-right: 5px;
+}
 .badge.pokemon{
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
+  font-size: 18px;
 }
 .badge.capitalize{
   text-transform: capitalize;

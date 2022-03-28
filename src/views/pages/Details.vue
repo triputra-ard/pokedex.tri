@@ -31,6 +31,7 @@
               <p>{{ pokemons_details.weight }}</p>
             </div>
             <div class="pokemon-types">
+              <label class="title">Type :</label>
               <label :class="'badge pokemon capitalize ml-1 mr-1 badge-'+item.type.name" v-for="(item, index) in pokemons_details.types">
                 {{item.type.name}}
               </label>
