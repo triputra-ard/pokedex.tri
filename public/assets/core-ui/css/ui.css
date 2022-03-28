@@ -425,7 +425,7 @@ a:hover{
   color: var(--pure-white);
 }
 .badge.badge-bug{
-  background-color: rgb(128,221,31);
+  background-color: rgb(146,201,36);
   color: var(--pure-white);
 }
 .badge.badge-ghost{
@@ -449,11 +449,11 @@ a:hover{
   color: var(--pure-white);
 }
 .badge.badge-electric{
-  background-color: rgb(221,217,199);
+  background-color: rgb(255,255,73);
   color: var(--dark);
 }
 .badge.badge-psychic{
-  background-color: rgb(201,199,201);
+  background-color: rgb(181,91,193);
   color: var(--dark);
 }
 .badge.badge-ice{
