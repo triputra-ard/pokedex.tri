@@ -8,7 +8,7 @@
         <div class="form-group poke-dropdown">
           <button class="btn btn-outline-primary" type="button" data-toggle="dropdown" aria-expanded="false"><i class="fas fa-filter"></i> Filter</button>
           <div class="dropdown-menu">
-            <a href="javascript:void(0)" class="dropdown-item">Pokemons Filter</a>
+            <a href="javascript:void(0)" class="dropdown-item disabled">Pokemons Filter</a>
             <input id="paramsValue" type="hidden" name="" :value="$route.query.type != undefined ? $route.query.type:0">
             <div role="separator" class="dropdown-divider"></div>
             <div class="dropdown-group">
