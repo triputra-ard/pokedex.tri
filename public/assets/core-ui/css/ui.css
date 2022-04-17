@@ -400,84 +400,144 @@ a:hover{
 .badge-xp.big{
   font-size: 28px;
 }
-.badge.badge-normal{
+.badge.badge-normal,
+.dropdown-item[data-hover="normal"]:hover
+{
   background-color: var(--poke-footer-background);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-fighting{
+.badge.badge-fighting,
+.dropdown-item[data-hover="fighting"]:hover
+{
   background-color: rgb(222,0,49);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-flying{
+.badge.badge-flying,
+.dropdown-item[data-hover="flying"]:hover
+{
   background-color: rgb(156,240,239);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-poison{
+.badge.badge-poison,
+.dropdown-item[data-hover="poison"]:hover
+{
   background-color: rgb(203,12,174);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-ground{
+.badge.badge-ground,
+.dropdown-item[data-hover="ground"]:hover
+{
   background-color: rgb(196,180,98);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-rock{
+.badge.badge-rock,
+.dropdown-item[data-hover="rock"]:hover
+{
   background-color: rgb(101,100,99);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-bug{
+.badge.badge-bug,
+.dropdown-item[data-hover="bug"]:hover
+{
   background-color: rgb(146,201,36);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-ghost{
+.badge.badge-ghost,
+.dropdown-item[data-hover="ghost"]:hover
+{
   background-color: rgb(191,191,191);
-  color: var(--dark);
+  color: var(--dark)!important;
+  transition: all .3s;
 }
-.badge.badge-steel{
+.badge.badge-steel,
+.dropdown-item[data-hover="steel"]:hover
+{
   background-color: rgb(148,190,169);
-  color: var(--dark);
+  color: var(--dark)!important;
+  transition: all .3s;
 }
-.badge.badge-fire{
+.badge.badge-fire,
+.dropdown-item[data-hover="fire"]:hover
+{
   background-color: rgb(255,208,75);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-water{
+.badge.badge-water,
+.dropdown-item[data-hover="water"]:hover
+{
   background-color: rgb(93,216,231);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-grass{
+.badge.badge-grass,
+.dropdown-item[data-hover="grass"]:hover
+{
   background-color: rgb(21,179,5);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-electric{
+.badge.badge-electric,
+.dropdown-item[data-hover="electric"]:hover
+{
   background-color: rgb(255,255,73);
-  color: var(--dark);
+  color: var(--dark)!important;
+  transition: all .3s;
 }
-.badge.badge-psychic{
+.badge.badge-psychic,
+.dropdown-item[data-hover="psychic"]:hover
+{
   background-color: rgb(181,91,193);
-  color: var(--dark);
+  color: var(--dark)!important;
+  transition: all .3s;
 }
-.badge.badge-ice{
+.badge.badge-ice,
+.dropdown-item[data-hover="ice"]:hover
+{
   background-color: rgb(173,231,251);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-dragon{
+.badge.badge-dragon,
+.dropdown-item[data-hover="dragon"]:hover
+{
   background-color: rgb(250,197,0);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-dark{
+.badge.badge-dark,
+.dropdown-item[data-hover="dark"]:hover
+{
   background-color: rgb(37,67,78);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-fairy{
+.badge.badge-fairy,
+.dropdown-item[data-hover="fairy"]:hover
+{
   background-color: rgb(233,131,183);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
-.badge.badge-unknown{
+.badge.badge-unknown,
+.dropdown-item[data-hover="unknown"]:hover
+{
   background-color: rgb(232,232,232);
-  color: var(--dark);
+  color: var(--dark)!important;
+  transition: all .3s;
 }
-.badge.badge-shadow{
+.badge.badge-shadow,
+.dropdown-item[data-hover="shadow"]:hover
+{
   background-color: rgb(142,142,142);
-  color: var(--pure-white);
+  color: var(--pure-white)!important;
+  transition: all .3s;
 }
 /* end pokemon badge */

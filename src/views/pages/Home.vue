@@ -12,7 +12,7 @@
             <input id="paramsValue" type="hidden" name="" :value="$route.query.type != undefined ? $route.query.type:0">
             <div role="separator" class="dropdown-divider"></div>
             <div class="dropdown-group">
-              <router-link class="dropdown-item" :to="{name:'Filter',params:{filter:item.name}}" v-for="(item, index) in typeList">{{item.name}}</router-link>
+              <router-link class="dropdown-item" :data-hover="item.name" :to="{name:'Filter',params:{filter:item.name}}" v-for="(item, index) in typeList">{{item.name}}</router-link>
             </div>
           </div>
         </div>
