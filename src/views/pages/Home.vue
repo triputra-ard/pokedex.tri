@@ -126,10 +126,12 @@ export default {
     prev(url){
       this.currentUrl = url
       this.requestData();
+      $(window).scrollTop(0);
     },
     next(url){
       this.currentUrl = url
       this.requestData();
+      $(window).scrollTop(0);
     },
     searchData(){
       let paramsText = this.search.toLowerCase();

@@ -60,6 +60,8 @@ export default {
   @media only screen and (max-width:993px) {
     .btn.mobile{
       display: block;
+      font-size: 26px;
+      padding: 5px;
     }
   }
 </style>
